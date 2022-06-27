@@ -32,4 +32,11 @@
         android:layout_height="@dimen/ButtonHeight"
         android:text="Glide"
         android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_lottie"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ButtonHeight"
+        android:text="Lottie"
+        android:textAllCaps="false" />
 </LinearLayout>

@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MyApplication2"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".lottie.LottieActivity"
+            android:exported="false" />
+        <activity
             android:name=".glide.GlideActivity"
             android:exported="false" />
         <activity

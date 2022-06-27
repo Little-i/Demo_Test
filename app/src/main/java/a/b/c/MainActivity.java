@@ -10,6 +10,7 @@ import android.widget.Button;
 
 import a.b.c.Retrofit2_and_rxjava.Retrofit2_RxjavaActivity;
 import a.b.c.glide.GlideActivity;
+import a.b.c.lottie.LottieActivity;
 import a.b.c.resolve_address.ResolveAddressActivity;
 import a.b.c.youth_banner.YouthBannerActivity;
 
@@ -24,10 +25,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button mBtnYouthBanner = findViewById(R.id.btn_youth_banner);
         Button mBtnResolveAddress = findViewById(R.id.btn_resolve_address);
         Button mBtnGlide = findViewById(R.id.btn_glide);
+        Button mBtnLottie = findViewById(R.id.btn_lottie);
         mBtnRetrofit2AndRxjava.setOnClickListener(this);
         mBtnYouthBanner.setOnClickListener(this);
         mBtnResolveAddress.setOnClickListener(this);
         mBtnGlide.setOnClickListener(this);
+        mBtnLottie.setOnClickListener(this);
+
     }
 
     @SuppressLint("NonConstantResourceId")
@@ -45,6 +49,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_glide:
                 startActivity(new Intent(this, GlideActivity.class));
+                break;
+            case R.id.btn_lottie:
+                startActivity(new Intent(this, LottieActivity.class));
                 break;
         }
     }
