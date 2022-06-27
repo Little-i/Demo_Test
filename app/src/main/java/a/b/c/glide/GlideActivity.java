@@ -28,7 +28,7 @@ public class GlideActivity extends AppCompatActivity {
         Glide.with(this).load("file:///android_asset/pic1.jpg").into(mIvAssetsLoad);
         Glide.with(this).load("https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png").into(mIvHttpLoad);
 //        Glide.with(this).load("file://android_asset/pic1.jpg").asBitmap()
-        Bitmap bitmap = BitmapFactory.decodeFile("android.resource://" + getPackageName() + "raw/" + R.raw.pic2);
-        mIvTest.setImageBitmap(bitmap);//无法显示
+//        Bitmap bitmap = BitmapFactory.decodeFile("android.resource://" + getPackageName() + "raw/" + R.raw.pic2);
+//        mIvTest.setImageBitmap(bitmap);//无法显示
     }
 }

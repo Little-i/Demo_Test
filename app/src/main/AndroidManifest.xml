@@ -2,13 +2,28 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="a.b.c">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication2">
+        android:theme="@style/Theme.MyApplication2"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".glide.GlideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".resolve_address.ResolveAddressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".youth_banner.YouthBannerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Retrofit2_and_rxjava.Retrofit2_RxjavaActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
