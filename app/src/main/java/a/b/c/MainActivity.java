@@ -8,7 +8,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import a.b.c.Gson.GsonActivity;
 import a.b.c.Retrofit2_and_rxjava.Retrofit2_RxjavaActivity;
+import a.b.c.eventbus.EventbusActivity;
 import a.b.c.glide.GlideActivity;
 import a.b.c.lottie.LottieActivity;
 import a.b.c.resolve_address.ResolveAddressActivity;
@@ -26,11 +28,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button mBtnResolveAddress = findViewById(R.id.btn_resolve_address);
         Button mBtnGlide = findViewById(R.id.btn_glide);
         Button mBtnLottie = findViewById(R.id.btn_lottie);
+        Button mBtnGson = findViewById(R.id.btn_gson);
+        Button mBtnEventBus = findViewById(R.id.btn_EventBus);
         mBtnRetrofit2AndRxjava.setOnClickListener(this);
         mBtnYouthBanner.setOnClickListener(this);
         mBtnResolveAddress.setOnClickListener(this);
         mBtnGlide.setOnClickListener(this);
         mBtnLottie.setOnClickListener(this);
+        mBtnGson.setOnClickListener(this);
+        mBtnEventBus.setOnClickListener(this);
 
     }
 
@@ -52,6 +58,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_lottie:
                 startActivity(new Intent(this, LottieActivity.class));
+                break;
+            case R.id.btn_gson:
+                startActivity(new Intent(this, GsonActivity.class));
+                break;
+            case R.id.btn_EventBus:
+                startActivity(new Intent(this, EventbusActivity.class));
                 break;
         }
     }

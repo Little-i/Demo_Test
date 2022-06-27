@@ -39,4 +39,18 @@
         android:layout_height="@dimen/ButtonHeight"
         android:text="Lottie"
         android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_gson"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ButtonHeight"
+        android:text="Gson"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_EventBus"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ButtonHeight"
+        android:text="EventBus"
+        android:textAllCaps="false" />
 </LinearLayout>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:orientation="vertical">
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lt_lottie_test"
@@ -11,5 +11,12 @@
         android:layout_height="wrap_content"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_url="https://assets5.lottiefiles.com/datafiles/zc3XRzudyWE36ZBJr7PIkkqq0PFIrIBgp4ojqShI/newAnimation.json"/>
+        app:lottie_url="https://assets5.lottiefiles.com/datafiles/zc3XRzudyWE36ZBJr7PIkkqq0PFIrIBgp4ojqShI/newAnimation.json" />
+
+    <Button
+        android:id="@+id/btn_lottie_send_eventbus_message"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ButtonHeight"
+        android:text="Send EventBus Message"
+        android:textAllCaps="false" />
 </LinearLayout>

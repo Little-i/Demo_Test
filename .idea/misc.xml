@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MyApplication2/app/src/main/res/layout/activity_eventbus.xml" value="0.2" />
         <entry key="..\:/MyApplication2/app/src/main/res/layout/activity_glide.xml" value="0.22" />
+        <entry key="..\:/MyApplication2/app/src/main/res/layout/activity_gson.xml" value="0.2" />
         <entry key="..\:/MyApplication2/app/src/main/res/layout/activity_lottie.xml" value="0.22" />
         <entry key="..\:/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/MyApplication2/app/src/main/res/layout/activity_resolve_address.xml" value="0.2" />

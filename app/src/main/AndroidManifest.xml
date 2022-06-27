@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MyApplication2"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".eventbus.EventbusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Gson.GsonActivity"
+            android:exported="false" />
+        <activity
             android:name=".lottie.LottieActivity"
             android:exported="false" />
         <activity
