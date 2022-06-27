@@ -14,6 +14,7 @@ import a.b.c.eventbus.EventbusActivity;
 import a.b.c.glide.GlideActivity;
 import a.b.c.lottie.LottieActivity;
 import a.b.c.resolve_address.ResolveAddressActivity;
+import a.b.c.tourGuide.TourGuideActivity;
 import a.b.c.youth_banner.YouthBannerActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button mBtnLottie = findViewById(R.id.btn_lottie);
         Button mBtnGson = findViewById(R.id.btn_gson);
         Button mBtnEventBus = findViewById(R.id.btn_EventBus);
+        Button mBtnTourGuide = findViewById(R.id.btn_tourGuide);
         mBtnRetrofit2AndRxjava.setOnClickListener(this);
         mBtnYouthBanner.setOnClickListener(this);
         mBtnResolveAddress.setOnClickListener(this);
@@ -37,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mBtnLottie.setOnClickListener(this);
         mBtnGson.setOnClickListener(this);
         mBtnEventBus.setOnClickListener(this);
+        mBtnTourGuide.setOnClickListener(this);
 
     }
 
@@ -64,6 +67,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_EventBus:
                 startActivity(new Intent(this, EventbusActivity.class));
+                break;
+            case R.id.btn_tourGuide:
+                startActivity(new Intent(this, TourGuideActivity.class));
                 break;
         }
     }

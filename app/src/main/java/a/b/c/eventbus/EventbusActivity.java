@@ -16,6 +16,9 @@ import org.greenrobot.eventbus.ThreadMode;
 import a.b.c.R;
 import a.b.c.lottie.LottieActivity;
 
+/*
+    demo参考来自：https://www.jianshu.com/p/82e0125a9483
+ */
 public class EventbusActivity extends AppCompatActivity {
     private static final String TAG = "EventbusActivity: ";
     private TextView mTvEventBus;
